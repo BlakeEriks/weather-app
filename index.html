@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <script defer src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/04a430d3e9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <i class="fas fa-home home"></i>
+        <div class="header-text">Weather App</div>
+        <div class="day-counter">
+            <i class="fas fa-minus day-dec-button"></i>
+            <span class="day-count">1</span>
+            <i class="fas fa-plus day-inc-button"></i>
+        </div>
+        <i class="fas fa-cogs settings"></i>
+    </div>
+
+    <div class="content">
+        <form>
+            <input type="text" placeHolder="Enter A City Name..."/>
+            <!-- <input type="submit" value="Get Weather Info"/> -->
+        </form>
+    
+        <div class="weather-details">
+            <h3>City: <span id="city"></span></h3>
+            <h3>Temperature: <span id="temp"></span></h3>
+            <h3>Feels Like: <span id="feels-like"></span></h3>
+            <h3>Weather: <span id="weather"></span></h3>
+            <button>Try Again</button>
+        </div>
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>

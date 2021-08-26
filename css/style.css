@@ -1,0 +1,92 @@
+:root {
+    --theme-dark-gray: #484848;
+    --theme-light-gray: #aaaaaa;
+}
+
+body, body * {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: antiquewhite;
+    border: 3px solid var(--theme-dark-gray);
+    width: 400px;
+    margin: 20px auto;
+    height: 360px;
+    box-shadow: 3px 3px 3px 3px var(--theme-light-gray);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border-bottom: 3px solid var(--theme-dark-gray);
+}
+
+.header-text {
+    font-size: 30px;
+}
+
+.content {
+    background: #FFFFFF url("https://i.pinimg.com/originals/62/cb/bf/62cbbf3021778f2f6db1320a261fb88b.gif") no-repeat fixed center 80px;
+    height: 304px;
+}
+
+.weather-details {
+    position: relative;
+    top: 80px;
+    display: inline-block;
+    background: white;
+    margin: 0 auto;
+    border: 1px solid var(--theme-light-gray);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+form, h3 {
+    text-align: center;
+}
+
+form {
+    padding-top: 100px;
+}
+
+input {
+    padding: 10px;
+    font-size: 32px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 8px;
+}
+
+.settings {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.home {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.day-counter {
+    font-size: 30px;
+    content: '1';
+    user-select: none;
+}
+
+
+.day-inc-button, .day-dec-button {
+    font-size: 20px;
+    align-self: center;
+    cursor: pointer;
+}
